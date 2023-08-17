@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <header class="hide">
+        <img src="images/15.png" class="image" alt="Logo" height="100px" width="225px">
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup" >Login</button>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="vignette hide"></div>
+        <img src="images/seaandsky.jpg" style="background-color: rgba(0,0,0,0.6);" data-speedx ="0.1" data-speedy="0.1" data-speedz="0.01" data-rotation="0.1"  class="parallax bg-img">
+        <img src="images/cloud.png" data-speedx ="0.05" data-speedy="0.1" data-speedz="0.05" data-rotation="0.3" class="parallax cloud">
+        <!-- <img src="images/ship-3.png" data-speedx ="0.08" data-speedy="0.1" data-speedz="0.08" data-rotation="-1"  class="parallax ship3-img">
+        <img src="images/ship-4.png" data-speedx ="0.08" data-speedy="0.1" data-speedz="0.05" data-rotation="1" class="parallax ship4-img"> -->
+
+        <div class="text parallax" data-speedx ="0.17" data-speedy="0.12" data-speedz="0.1" data-rotation="0.9 " data-distance="0">
+            <h2 > Indian </h2>
+            <h1>Navy</h1>
+        </div>
+        <img src="images/ship1.png" data-speedx ="0.1" data-speedy="0.12" data-speedz="0.1" data-rotation="0.6" class="parallax ship1-img">
+        <img src="images/ship2.png" data-speedx ="0.1" data-speedy="0.1" data-speedz="0.01" data-rotation="0.1" class="parallax ship2-img">        
+    </main>
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            <div class="login-register">
+                <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+            </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the Terms & Conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.1/dist/gsap.min.js"></script>
+    <script src="js.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
